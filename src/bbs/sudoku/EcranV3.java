@@ -6,7 +6,7 @@ public class EcranV3 implements Ecran{
 			"    ╔═══════════════╗"+lf+
 			"    ╠╡ S═U═D═O═K═U ╞╣"+lf+
 			"    ╚═══════════════╝"+lf;
-
+//
 	public void affiche(Sudoku s){
 		System.out.println(s.getShow());
 		char[] show = s.getShow();
